@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LifeOS</title>
+  <style>
+    :root { --bg: #FFF8EC; --fg: #1F1530; --muted: #6E6280; --accent: #C2135F; --card: #FFFFFF; --border: #EADFCF; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #14121F; --fg: #F4F1FF; --muted: #A9A3C2; --accent: #FF6AA5; --card: #201D30; --border: #332F49; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+    .brand { font-weight: 800; font-size: 20px; color: var(--accent); letter-spacing: .3px; }
+    h1 { font-size: 32px; line-height: 1.2; margin: 6px 0 4px; }
+    h2 { margin-top: 36px; font-size: 21px; }
+    .meta { color: var(--muted); margin-top: 0; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px 18px; margin: 16px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+    th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; }
+    a { color: var(--accent); }
+    code { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; }
+    ol li, ul li { margin-bottom: 6px; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 560px) { table, tbody, tr, td, th { display: block; } th { display: none; } td { border: 0; padding: 4px 0; } tr { border-bottom: 1px solid var(--border); padding: 8px 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand">LifeOS</div>
+  <h1>Your life, organised</h1>
+  <p class="meta">Tasks, calendar, meals, money, chat and calls in one colourful app, in English and Arabic.</p>
+
+  <div class="card">
+    <ul>
+      <li>✅ Tasks in groups, with reminders</li>
+      <li>📅 A calendar with your events</li>
+      <li>🍽️ A weekly meal planner with shopping lists</li>
+      <li>💶 Bills, expenses and "Can I spend this?"</li>
+      <li>💬 Chat, photos, voice messages and calls with friends and family</li>
+    </ul>
+    <p>No ads. No tracking. Your data is never sold.</p>
+  </div>
+
+  <h2>Information</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy policy</a></li>
+    <li><a href="delete-account.html">Delete your account</a></li>
+    <li>Questions: <a href="mailto:lifeos.app.help@gmail.com">lifeos.app.help@gmail.com</a></li>
+  </ul>
+
+  <footer>LifeOS · made in Belgium</footer>
+</main>
+</body>
+</html>
